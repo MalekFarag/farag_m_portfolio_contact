@@ -1,6 +1,6 @@
 <?php // single quotes = literal string... double = interperates php (like backticks in js)
     if(empty($_POST)){
-        echo 'Bruh.';
+        echo 'empty';
         exit;
     }
 
