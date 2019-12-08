@@ -23,7 +23,7 @@
 
     // Syntax error
     if(isset($_POST['subject'])){
-        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING)
+        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
     }
 
     if(isset($_POST['message'])){
